@@ -1,0 +1,152 @@
+/*I'VE SQEEZED IT IN ORDER TO MINIMISE LOAD TIME*/
+body{margin: 0;font-family: Arial;}
+/*HEADER*/
+header{min-height: 145px;padding-top: 35px;}
+header .strip{  height: 3px;border-top: 27px solid #eef3f7;border-bottom: 3px solid #eef3f7;}
+header .logo{position: absolute;top: -10px;left: 10%;height: 111px; width: 328px;border-radius: 10px;box-shadow: 0 0 15px gray;background: white url("https://s8.hostingkartinok.com/uploads/images/2017/06/c1bcb0892f32fc87d2f3d20ef5285123.png") center no-repeat;}
+nav{position: absolute;top: 135px;overflow: auto;min-height: 45px;width: 100%;background: #eef3f7;border: 1px solid #dcdcdc;}
+.menu{display: inline-block;margin-left: 200px;}
+nav a{display: inline-block;text-decoration: none;margin-right: 38px;color: #fc9e07;}
+nav a:first-child{color: #7ab136;}
+nav li{list-style: none;}
+header .twit,header .face{display: inline-block;float: right;margin-top: 18px;}
+header .twit{height: 30px;width: 30px;background: url("https://s8.hostingkartinok.com/uploads/images/2017/06/4b3f80476c6ff840a9f3364a7225611b.png");margin-right: 15px;}
+header .face{height: 30px;width: 30px;
+  background: url("https://s8.hostingkartinok.com/uploads/images/2017/06/4b3f80476c6ff840a9f3364a7225611b.png") right;
+  margin-right: 117px;
+}
+/*CONTENT*/
+.content{
+  height: auto;
+}
+.bg1{
+  height: 340px;
+  background: #dae8f3 url("https://s8.hostingkartinok.com/uploads/images/2017/06/bc3ed7b9655e395e8204163c44b5957c.png") bottom repeat-x;
+}
+.bg2{
+  margin-top: 19px;
+  height: 5px;
+  background: url("https://s8.hostingkartinok.com/uploads/images/2017/06/e7416171078975df09a2d06cb8233179.png") top repeat-x;
+}
+.info{ 
+  height: 412px;
+  max-width: 1000px;
+  min-width: 80%;
+  margin: -334px auto;
+  background: white url("https://s8.hostingkartinok.com/uploads/images/2017/06/a6fbeaee5b1d1a785f56afcf73307ce8.png");
+  border-radius: 10px;
+  box-shadow: 0 -1px 5px gray;
+}
+.text{
+  display: inline-block;
+  float: left;
+  height: auto;
+   width: 50%;
+  margin-left: 30px;
+}
+#orange_c{
+  color: #fc9e07;
+  font-weight: bold;
+}
+.text h1{
+  font-weight: normal;
+  color: #fc9e07;
+  font-size: 270%;
+}
+.text p{
+  font-size: 100%;
+  margin-top: 28px; 
+}
+.text h3{
+  color: #0b6cb7;
+}
+.foto{
+  display: inline-block;
+  float: right;
+  height: 430px;
+  min-width: 35%;   
+  margin-top: 30px;
+  margin-right: 40px;
+  background: url("https://s8.hostingkartinok.com/uploads/images/2017/06/a2e3660acb70c6d35a265d8a26cbd614.png") no-repeat;
+  background-size: 100% 100%;
+}
+/*TRACK*/
+#track{margin: 380px 15% 0;max-width: 1000px;min-width: 70%;border-radius: 10%;box-shadow: 0 0 19px white;/*+ <audio> in codepen*/}
+#a{
+    float: left;
+    height: 30px;
+    width: 30px;
+    background: #3090f1;
+    border: none;
+    border-radius: 50%; 
+    text-align: center;
+    vertical-align: middle;  
+}
+#track-a-img{
+   margin: auto;
+   height: 15px;
+   width: 12px;
+   background: url("https://s8.hostingkartinok.com/uploads/images/2017/06/f38392c6ca26eb974474199bb69e1f9d.png");
+   background-size: 100% 100%;
+}
+#track span{
+    display: inline-block;
+    margin: 5px 10px 0;   
+    color: green;
+    font-weight: bold;
+}
+#predule{
+   visibility: hidden;
+   width: 100%;
+}
+/*FOOTER*/
+.footer{
+  margin-top: 50px;
+  height: 102px;
+  width: 100%;
+}
+.f-bg{
+  position: relative;
+    top: 50px;
+  height: 48px;
+  width: 100%;
+  background: #dae8f3;
+  border-top: 4px solid #dbd9d9;
+}
+.footer-content{
+  position: relative;
+  top: -52px;
+  margin: 0 auto 0;
+
+  height: 75px;
+  min-width: 80%;
+  max-width: 1000px;
+
+  border-radius: 10px;
+  box-shadow: 0 5px 5px gray;
+  background: white;
+  vertical-align: middle;
+  font-size: 12px;
+}
+.footer-content p{
+  display: inline-block;
+  float: left;
+}
+.footer-content .first-str{
+  margin: 30px 5% 0 15px;
+}
+.footer-content .last-str{
+  margin: 30px 0px 0 0px;
+}
+.footer-content .footer-menu{
+  display: inline-block;
+  float: right;
+  margin: 30px 24px 0 0;
+}
+.footer-menu li{
+  display: inline-block;
+}
+.footer-menu li a{
+  text-decoration: none;
+  color: black;
+}
